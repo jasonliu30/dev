@@ -1,0 +1,190 @@
+#include "standard-types.hsl"
+
+#pragma enumsize(1)
+#pragma maxarray(65536)
+
+typedef enum tagStation
+{
+    Pickering_A     = 1,
+    Pickering_B     = 2,
+    Bruce_A         = 3,
+    Bruce_B         = 4,
+    Darlington_A    = 5,
+    Darlington_B    = 6,
+    Point_Lepreau   = 7,
+    Gentilly        = 8,
+    Wolsong         = 9,
+    Cordoba         = 10,
+    Cernavoda       = 11
+} STATION ;
+typedef enum tagChannelEnd
+{
+    Inlet   = 1,
+    Outlet  = 2
+} END ;
+typedef enum tagReactorFace
+{
+    East    = 1,
+    West    = 2,
+    North   = 3,
+    South   = 4
+} FACE ;
+typedef enum tagSystem
+{
+    CIGAR   = 0,
+    ANDE    = 1,
+    CANDE   = 2    
+} SYSTEM;
+typedef enum tagScanType
+{
+    HELICAL_C_SCAN               = 2,
+    DETAILED_AXIAL_C_SCAN        = 3,
+    DETAILED_CIRC_C_SCAN         = 4,
+    CIRCUMFERENTIAL_B_SCAN       = 5,
+    AXIAL_B_SCAN                 = 6,
+    ON_CHANNEL_CAL_1             = 10,
+    ON_CHANNEL_CAL_2             = 11,
+    CIRCUMFERENTIAL_B_SCAN_CAL   = 12,
+    PIPE_B_SCAN                  = 13
+} SCAN_TYPE;
+typedef struct _POS
+{
+    word    Axial;
+    short   Rotary;
+} POS ;
+typedef struct _VER
+{
+    byte    Major;
+    byte    Minor;
+} VER ;
+typedef struct _SCAN
+{
+    SCAN_TYPE   ScanType;
+    SYSTEM      System;
+} SCAN ;
+typedef struct _THRESHOLD
+{
+    byte    byValue;
+    byte    Polarity;    
+} THRESHOLD;
+typedef struct _UTX
+{
+    byte    Gain;
+    word    PulseVoltage;
+    word    PulseWidth;
+    byte    LowFilter;
+    byte    HighFilter;
+} UTX;
+typedef struct _FOOTER_BLOCK
+{
+    __int64 FileOffset;
+    short   Type;
+} FOOTER_BLOCK;
+typedef struct _FRAME
+{
+    float   Axial;
+    short   Rotary;
+    byte    Data[302][880]; 
+} FRAME ;
+
+typedef struct _BSLICES
+{
+    float   Axial;
+    short   Rotary;   
+ 
+    //short  Data[ushortAt(addrof(__parent__)+2)/2][ushortAt(addrof(__parent__))/2];
+} BSLICE;
+
+/*****************************************************************************
+ *  FILE STRUCTURE
+******************************************************************************/
+struct A_FILE_HEADER
+{
+    #pragma lockat(0);
+    STATION GeneratingStation;
+    char    UnitNumber;
+    char    Year;
+    char    Month;
+    char    Day;
+    char    ChannelNumber;
+    char    ChannelLetter;
+    END     ChannelEnd;
+    FACE    ReactorFace;
+    char    InspectionHeadID[10];
+    char    OperatorName[22];
+    char    Date[10];
+    char    Time[10];
+};
+
+// Note: Always starts at offset 70 from the beginning of the file
+struct B_EXTENDED_HEADER
+{
+    #pragma lockat(70);
+    SCAN        ScanType;
+    POS         FirstPosition;
+    POS         LastPosition;
+    byte        FirstChannel;
+    byte        LastCannel;
+    VER         Version;
+    word        AxialIncrement;
+    float       AxialStart;
+    float       AxialEnd;
+    byte        AxialPitch;    
+    char        _Unused1;
+    short       PowerCheck[4];
+    short       ChannelGain[7];
+    char        Comment[60];
+    byte        _unused2[10];
+    char        ChannelLabels[16][21];
+    THRESHOLD   ChannelThreshoolds[16]; 
+    __int64     BChannelDataOffset[8];
+    short       GatesDelay[25];
+    short       GatesRange[25];
+    short       ReceiverFrequency[5];
+    float       EncoderResolutionAxial;
+    float       AxialIncrementResolution;
+    float       ScanSensRelNotch;  
+    __int64     FooterOffset;
+    
+    //more channel names
+    char        ChannelLabels2[4][12];
+};
+
+//Note: Always starts at offset 800 from the beginning of the file
+struct C_HARDWARE_INFO_BLOCK
+{
+    #pragma lockat(800);
+    UTX     UtexHardwareSettings[12];
+    byte    DigitizerRate[12];          // the signal digitization rate in units of 6.25MHz
+    byte    DigitizerAttenuation[12];
+    word    GateStart[20];              // time delay in nanoseconds
+    word    GateWidth[20];              // time value in nanoseconds
+};
+
+//Note: Always starts at offset 4096 for the first data set from the beginning of the file
+struct D_DATA_BSCAN
+{
+    #pragma lockAt(4096)
+    short TimeRange;
+    short RotaryRange;
+    short AxialRange;
+    
+    BSLICE myDataSlices[2];    
+};
+
+struct D_DATA_GHSCAN
+{
+    float   AxialPosition;
+    byte    GHData[20][3600];
+};
+
+struct E_FILE_FOOTER
+{
+    int     Count;
+    FOOTER_BLOCK    Blocks[1];    
+};
+
+struct F_SOFTWARE_GAINS
+{
+    float   SoftwareGain[20];
+};

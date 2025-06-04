@@ -1,0 +1,75 @@
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D2011\D06\BSCAN Type D  D-06 Darlington Unit-1 west 20-Feb-2021 074550 [A4926-4940][R900-1250].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1711\E12\BSCAN Type D  E-12 Darlington Unit-1 west 04-Apr-2017 125101 [A8326-8385][R3360-560].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D2011\J20\BSCAN Type D  J-20 Darlington Unit-1 west 17-Feb-2021 013919 [A2775-2810][R700-2200].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D2011\J20\BSCAN Type D  J-20 Darlington Unit-1 west 17-Feb-2021 064437 [A8815-8843][R2550-150].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1711\K07\BSCAN Type D  K-07 Darlington Unit-1 west 30-Mar-2017 132130 [A2727-2856][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1711\K07\BSCAN Type D  K-07 Darlington Unit-1 west 30-Mar-2017 173319 [A8478-8503][R830-1190].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1711\L16\BSCAN Type D  L-16 Darlington Unit-1 west 07-Apr-2017 195630 [A2774-2822][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1831\J16\BSCAN Type D  J-16 Darlington Unit-3 west 07-Apr-2018 113716 [A2890-2960][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D2011\L16\BSCAN Type D  L-16 Darlington Unit-1 west 15-Feb-2021 194249 [A4204-4265][R3020-500].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1711\M11\BSCAN Type D  M-11 Darlington Unit-1 west 07-Apr-2017 040700 [A2893-2953][R800-2860].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1711\M18\BSCAN Type D  M-18 Darlington Unit-1 west 11-Apr-2017 084921 [A3584-3590][R2230-2600].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1711\N23\BSCAN Type D  N-23 Darlington Unit-1 west 11-Apr-2017 003747 [A8926-9006][R801-2806].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D2011\S18\BSCAN Type D  S-18 Darlington Unit-1 west 23-Feb-2021 080346 [A8663-8678][R820-1190].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D2011\S18\BSCAN Type D  S-18 Darlington Unit-1 west 23-Feb-2021 081040 [A8962-9015][R700-2700].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1321\K12\BSCAN Type D  K-12 Darlington Unit-2 west 16-Sep-2013 001341 [A8950-8997][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D2011\V17\BSCAN Type D  V-17 Darlington Unit-1 west 23-Feb-2021 222906 [A9050-9190][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1321\K12\BSCAN Type D  K-12 Darlington Unit-2 west 15-Sep-2013 223526 [A5597-5611][R990-1340].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1321\K20\BSCAN Type D  K-20 Darlington Unit-2 west 16-Sep-2013 141142 [A6959-6977][R890-1250].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1321\O17\BSCAN Type D  O-17 Darlington Unit-2 west 20-Sep-2013 185621 [A4188-4297][R3350-560].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1321\O21\BSCAN Type D  O-21 Darlington Unit-2 west 21-Sep-2013 084540 [A3258-3274][R2240-2570].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1831\C14\BSCAN Type D  C-14 Darlington Unit-3 west 09-Apr-2018 095128 [A2782-2818][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1831\K08\BSCAN Type D  K-08 Darlington Unit-3 west 18-Apr-2018 223300 [A4072-4123][R3340-200].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1831\X11\BSCAN Type D  X-11 Darlington Unit-3 west 12-Apr-2018 122138 [A8198-8216][R1980-2400].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1341\S12\BSCAN Type D  S-12 Darlington Unit-4 west 14-Feb-2013 110227 [A8911-8964][R840-2960].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P2011\J02\BSCAN Type D  J-02 Pickering A Unit-1 east 31-Jan-2020 034222 [A3805-3835][R1000-2600].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1551\M11\BSCAN Type D  M-11 Pickering B Unit-5 east 21-Mar-2015 084044 [A5778-5833][R970-2810].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1751\M07\BSCAN Type D  M-07 Pickering B Unit-5 east 09-Mar-2017 183638 [A2455-2496][R150-520].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1751\M08\BSCAN Type D  M-08 Pickering B Unit-5 east 09-Mar-2017 054055 [A4120-4145][R1150-1700].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1551\Q13\BSCAN Type D  Q-13 Pickering B Unit-5 east 25-Mar-2015 062026 [A3557-3593][R1260-2510].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1751\Q13\BSCAN Type D  Q-13 Pickering B Unit-5 east 08-Mar-2017 170223 [A3555-3607][R1050-2550].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1751\Q13\BSCAN Type D  Q-13 Pickering B Unit-5 east 08-Mar-2017 163614 [A5485-5675][R1850-2260].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1531\V14\BSCAN Type D  V-14 Darlington Unit-3 west 28-Oct-2015 112849 [A2897-2943][R850-2750].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1861\M05\BSCAN Type D  M-05 Pickering B Unit-6 west 12-Feb-2018 055258 [A8068-8108][R1100-2570].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1561\N04\BSCAN Type D  N-04 Pickering B Unit-6 west 25-Oct-2015 132956 [A5714-5734][R1720-2100].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1561\O08\BSCAN Type D  O-08 Pickering B Unit-6 west 25-Oct-2015 080636 [A3062-3104][R1130-2700].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1861\O08\BSCAN Type D  O-08 Pickering B Unit-6 west 12-Feb-2018 143253 [A8663-8798][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1671\K09\BSCAN Type D  K-09 Pickering B Unit-7 east 14-Oct-2016 180906 [A3555-3592][R1150-2550].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1481\G11\BSCAN Type D  G-11 Pickering B Unit-8 west 27-Mar-2014 191144 [A8510-8573][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1481\M08\BSCAN Type D  M-08 Pickering B Unit-8 west 28-Mar-2014 040817 [A4247-4307][R900-2850].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1481\M08\BSCAN Type D  M-08 Pickering B Unit-8 west 28-Mar-2014 042245 [A8050-8107][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1481\S14\BSCAN Type D  S-14 Pickering B Unit-8 west 28-Mar-2014 151059 [A7573-7585][R1350-1790].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1531\C11\BSCAN Type D  C-11 Darlington Unit-3 west 04-Oct-2015 061807 [A9014-9152][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1531\E15\BSCAN Type D  E-15 Darlington Unit-3 west 02-Oct-2015 121724 [A8939-8994][R720-2930].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1531\F17\BSCAN Type D  F-17 Darlington Unit-3 west 01-Oct-2015 203318 [A5577-5643][R1810-2110].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1531\K08\BSCAN Type D  K-08 Darlington Unit-3 west 27-Sep-2015 065741 [A8932-9000][R770-2970].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1531\K22\BSCAN Type D  K-22 Darlington Unit-3 west 27-Sep-2015 214231 [A8886-9023][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1531\L16\BSCAN Type D  L-16 Darlington Unit-3 west 26-Sep-2015 205011 [A6715-6729][R1420-1760].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1531\L16\BSCAN Type D  L-16 Darlington Unit-3 west 26-Sep-2015 204146 [A6731-6796][R3390-550].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1531\M18\BSCAN Type D  M-18 Darlington Unit-3 west 26-Sep-2015 071706 [A8924-8997][R650-2850].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1361\K11\BSCAN Type D  K-11 Pickering B Unit-6 west 14-Oct-2013 130529 [A5845-5860][R950-1300].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1361\O08\BSCAN Type D  O-08 Pickering B Unit-6 west 12-Oct-2013 223421 [A6513-6532][R700-1070].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1361\O08\BSCAN Type D  O-08 Pickering B Unit-6 west 12-Oct-2013 223802 [A8525-8544][R2150-2600].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1951\L18\BSCAN Type D  L-18 Pickering B Unit-5 east 17-Oct-2019 124135 [A4531-4546][R1770-2110].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1951\M11\BSCAN Type D  M-11 Pickering B Unit-5 east 18-Oct-2019 133449 [A8684-8812][R0-3599].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1951\O15\BSCAN Type D  O-15 Pickering B Unit-5 east 12-Oct-2019 105710 [A8545-8559][R1400-1877].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1971\J17\BSCAN Type D  J-17 Pickering B Unit-7 east 16-Mar-2019 182159 [A3509-3524][R2140-2520].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1971\K09\BSCAN Type D  K-09 Pickering B Unit-7 east 14-Mar-2019 052653 [A8047-8066][R140-550].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1951\J01\BSCAN Type D  J-01 Pickering B Unit-5 east 14-Oct-2019 000414 [A7515-7536][R3200-100].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1971\M05\BSCAN Type D  M-05 Pickering B Unit-7 east 12-Mar-2019 162023 [A8279-8385][R620-1080].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1341\O07\BSCAN Type D  O-07 Darlington Unit-4 west 13-Feb-2013 180705 [A2896-2948][R500-2900].anf
+\\azu-fsai01\RAW DATA\Scan Data - Darlington\D1321\K12\BSCAN Type D  K-12 Darlington Unit-2 west 15-Sep-2013 233031 [A7691-7704][R1760-2090].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1551\M11\BSCAN Type D  M-11 Pickering B Unit-5 east 21-Mar-2015 091911 [A7332-7353][R2140-2900].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1551\Q05\BSCAN Type D  Q-05 Pickering B Unit-5 east 23-Mar-2015 174401 [A7512-7541][R1200-1700].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1561\N04\BSCAN Type D  N-04 Pickering B Unit-6 west 25-Oct-2015 130033 [A2480-2500][R2720-60].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1861\O08\BSCAN Type D  O-08 Pickering B Unit-6 west 12-Feb-2018 141220 [A8541-8561][R2150-2600].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1361\K09\BSCAN Type D  K-09 Pickering B Unit-6 west 14-Oct-2013 005231 [A2612-2633][R630-1140].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1951\J01\BSCAN Type D  J-01 Pickering B Unit-5 east 13-Oct-2019 235938 [A7620-7637][R1670-2050].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1951\K04\BSCAN Type D  K-04 Pickering B Unit-5 east 19-Oct-2019 052905 [A3114-3124][R1853-2550].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1951\T07\BSCAN Type D  T-07 Pickering B Unit-5 east 11-Oct-2019 182310 [A3109-3125][R1600-1950].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P2011\R09\BSCAN Type D  R-09 Pickering A Unit-1 east 30-Jan-2020 113341 [A2536-2556][R1380-1800].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1551\T14\BSCAN Type D  T-14 Pickering B Unit-5 east 25-Mar-2015 170338 [A6555-6570][R1300-1630].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1671\G08\BSCAN Type D  G-08 Pickering B Unit-7 east 14-Oct-2016 130341 [A4943-4960][R2600-2930].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1361\M05\BSCAN Type D  M-05 Pickering B Unit-6 west 16-Oct-2013 090707 [A3669-3727][R920-2110].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1951\L06\BSCAN Type D  L-06 Pickering B Unit-5 east 14-Oct-2019 063013 [A7025-7066][R1170-2570].anf
+\\azu-fsai01\RAW DATA\Scan Data - Pickering\P1951\N09\BSCAN Type D  N-09 Pickering B Unit-5 east 18-Oct-2019 210236 [A4098-4110][R20-664].anf

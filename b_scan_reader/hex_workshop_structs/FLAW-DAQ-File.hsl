@@ -1,0 +1,158 @@
+#include "standard-types.hsl"
+
+#pragma enumsize(1)
+#pragma maxarray(65536)
+
+typedef struct _GATEINFO
+{
+    Byte      GateLabelLength;
+    char      GateLabel[GateLabelLength];
+    short     GateOffset;
+    short     GateLength;
+    short     GateThreshold;
+    short     Params;
+} GATEINFO;
+
+typedef struct _UTChannel
+{
+    Byte      NameLength;
+    char      Name[NameLength];
+    int       eMode;
+    int       NumRXElements;
+    int       NumTXElements;
+    int       SamplingFreqMHz;
+    bool      Calibrated;
+    Byte      AnalogFilterNameLength;
+    char      AnalogFilter[AnalogFilterNameLength];
+    float     LowFilterMHz;
+    float     HighFilterMHz;
+    int       ZeroOffset_dp;
+    int       AcqDelay;
+    int       InspDelay;
+    int       Range_dp;
+    double    dGain_dB[2]; // Fix this
+    short     PulseVoltage_V;
+    short     PulseWidth_ns;
+    short     Tx;
+    short     Rx;
+    bool      bEchoTriggerMode;
+    bool      bRectified;
+    short     Aperture;
+    short     Averaging;
+    bool      HalfMatrixCapture;
+    bool      FMCCircularAperture;
+    GATEINFO  InterfaceGateInfo;
+    int       numGates;
+    GATEINFO  GateData[3]; // Fix this
+    bool      HasPrimaryDAC;
+    bool      HasSecondaryDAC;
+} UTChannel;
+
+typedef struct _AXISINFO
+{
+    int       AxisType;
+    int       AxisIndex;
+    double    MinPos[2]; // Fix this
+    double    MaxPos[2]; // Fix this
+    int       numWaves;
+    double    Step[2]; // Fix this
+    Byte      UnitsLength;
+    char      Units[UnitsLength];
+} AXISINFO;
+
+typedef struct _PROBEINFO
+{
+    Byte     ProbeDescLength;
+    char     ProbeDesc[ProbeDescLength];
+    float    Frequency_MHz;
+    float    Angle_deg;
+    float    Position; 
+} PROBEINFO;
+
+typedef struct _BASICSCANINFO
+{
+    Byte     KeyStringLength;
+    char     KeyString[KeyStringLength];
+    Byte     ValStringLength;
+    char     ValString[ValStringLength];
+} BASICSCANINFO;
+
+typedef struct _ASCAN
+{
+    ushort     WaveLen;
+    ushort     TxElem;
+    ushort     usRxElem;
+    float      Delay_dp;
+    int        Interface_dp;
+    int        GateVal[3];
+    ushort     waveVal[844];
+} ASCAN;
+
+
+/*****************************************************************************
+ *  FILE STRUCTURE
+******************************************************************************/
+struct A_FILE_HEADER
+{
+    #pragma       lockat(0);
+    char          Prefix[7];
+    short         VerMajor;
+    short         VerMinor;
+    Byte          OperatorLength;
+    char          Operator[OperatorLength];
+    Byte          ToolDescLength;
+    char          ToolDesc[ToolDescLength];
+    Byte          SerialNoLength;
+    char          SerialNo[SerialNoLength];
+    int           year;
+    int           month;
+    int           day;
+    int           hour;
+    int           minute;
+    int           second;
+    int           SampleFreqMHz;
+    int           SampleRes;
+    int           FrameCount;
+    UQUAD         FooterOffset;
+    int           numUTChannels;
+    UTChannel     utChannels[12]; // Fix this
+    int           numAxes;
+    Byte          AxesLabelLength;
+    char          AxesLabel[AxesLabelLength];
+    int           numMetaData;
+    bool          PrimaryAxisInfoAvail;
+    AXISINFO      PrimaryAxisInfo;
+    bool          FrameAxisInfoAvail;
+    AXISINFO      FrameAxisInfo;    
+    bool          ProbeInfoAvail;
+    Byte          ProbeDescLength;
+    char      	  ProbeDesc[ProbeDescLength];
+    short    	  numProbes;
+    int       	  ProbeTypes;
+    PROBEINFO	  ProbeInfo[12]; // Fix this
+    int 	  numInfo;
+    BASICSCANINFO BasicScanInfo[10]; // Fix this	 
+    int		  numExtendedInfo;
+    BASICSCANINFO extScanInfo[14]; // Fix this	 	
+    UQUAD         dataOffset;
+    UQUAD         FrameCache[65]; 
+    float         PosCache[65];
+};
+
+struct B_Frame_Data
+{
+    #pragma    lockat(11974);
+    int        FrameIndex;
+    ushort     TxElems;
+    ushort     RxElems;
+    ushort     NumAxes;
+    ushort     NumOther;
+    float      axisPos[4];
+    int        MaxSize;
+    ASCAN      aScan[3600];
+};
+
+struct C_Data_Only
+{
+    ASCAN      aScan[3600];
+};
