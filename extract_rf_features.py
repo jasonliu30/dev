@@ -133,7 +133,7 @@ def extract_features_from_query_results(query_results):
                 'depth_cpc': flaw.get('depth_cpc'),
                 
                 # Target variable
-                'depth_diff': flaw.get('metrics', {}).get('depth_diff'),
+                'depth_diff': abs(flaw.get('metrics', {}).get('depth_diff')),
                 
                 # Additional metrics
                 'reported_depth': flaw.get('depth'),
@@ -324,7 +324,7 @@ def main():
         if args.db_path:
             my_db = ScanDatabase(args.db_path)
         else:
-            my_db = ScanDatabase(r'db\UT_db.json')
+            my_db = ScanDatabase(r'C:\Users\LIUJA\Documents\GitHub\PTFAST-v1.2.0\db\UT_db.json')
         
         # Query the database based on test_name
         print(f"Querying database for test_name: {test_name}")
